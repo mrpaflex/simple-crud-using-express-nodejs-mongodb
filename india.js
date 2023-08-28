@@ -1,7 +1,7 @@
 const MongoClient = require('mongodb').MongoClient;
 
 // Connection details
-const mongoUri = 'mongodb+srv://ukosaviour21:hQbvrVWTg19DcavX@cluster0.j4lrdgf.mongodb.net/?retryWrites=true&w=majority';
+const mongoUri = 'mongodb+srv://ukosaviour21:password@cluster0.j4lrdgf.mongodb.net/?retryWrites=true&w=majority';
 const dbName = 'paflexfirstDb';
 const collectionName = 'mycollection';
 const client = new MongoClient(mongoUri);

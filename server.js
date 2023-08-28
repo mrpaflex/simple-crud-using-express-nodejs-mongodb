@@ -15,7 +15,7 @@ app.use(express.json())
 
 const MongoClient = require("mongodb").MongoClient;
 
-const uril = "mongodb+srv://ukosaviour21:hQbvrVWTg19DcavX@cluster0.j4lrdgf.mongodb.net/?retryWrites=true&w=majority";
+const uril = "mongodb+srv://ukosaviour21:password@cluster0.j4lrdgf.mongodb.net/?retryWrites=true&w=majority";
 const dbname = 'mydbsecond';
 const client = new MongoClient(uril);
 const db = client.db(dbname);
